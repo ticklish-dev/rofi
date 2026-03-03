@@ -1,13 +1,15 @@
-
+/*
+ * Gruvbox Dark (big icons) for rofi
+ */
 
 // define colors etc.
 * {
-    bg: #282828;              // Gruvbox dark hard background
-    hv: #83a598;              // Gruvbox blue (selection)
-    primary: #3c3836;         // Bright black (borders)
-    ug: #fb4934;              // Red (urgent)
-    kl: #ebdbb2;              // Foreground
-    black: #1d2021;           // Darker bg for contrast
+    bg: #282828;
+    hv: #83a598;
+    primary: #3c3836;
+    ug: #fb4934;
+    kl: #ebdbb2;
+    black: #1d2021;
     yellow: #fabd2f;
 
     font: "Monospace 11";
@@ -17,7 +19,6 @@
     transparent: rgba(0,0,0,0);
 }
 
-// window
 window {
     width: 700;
     orientation: horizontal;
@@ -51,7 +52,7 @@ message {
 }
 
 entry, prompt, case-indicator {
-    text-font: inherit;
+    font: inherit;
     text-color: inherit;
 }
 
